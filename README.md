@@ -9,7 +9,7 @@ Inticing future features might be:
  - Taunts
  - Are you sure you want to reset the drama modal dialogue hell
 
-![Screenshot]days-since/src/assets/initial.png
+![Alt text](src/assets/initial.png)
 
 I'd probably back this sucker in postgres, but sqllite is probably the winner as most teams are small.  
 As the number people of teams increases, 
