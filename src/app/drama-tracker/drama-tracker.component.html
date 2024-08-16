@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>Elapsed Time Since Last Drama</h2>
+    <div class="counter-display">
+      <h1>
+        {{ timeSinceLastDrama.years }} Years, 
+        {{ timeSinceLastDrama.days }} Days, 
+        {{ timeSinceLastDrama.hours }} Hours, 
+        {{ timeSinceLastDrama.minutes }} Minutes, 
+        {{ timeSinceLastDrama.seconds }} Seconds
+      </h1>
+
+    </div>
+    <div class="button-container">
+      <button (click)="resetCounter()">I have drama...</button>
+    </div>
+    <div class="history">
+      <h3>Reset History</h3>
+      <ul>
+        <li *ngFor="let reset of resetHistory">{{ reset }}</li>
+      </ul>
+    </div>
+  </div>
+  

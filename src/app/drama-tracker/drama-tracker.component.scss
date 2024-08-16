@@ -1,0 +1,33 @@
+$button-color: red;
+$button-hover-color: darkred;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+
+  .counter-display {
+    margin-bottom: 20px;
+  }
+
+  .button-container {
+    text-align: center;
+
+    button {
+      padding: 15px 30px;
+      background-color: $button-color;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $button-hover-color;
+      }
+    }
+  }
+}

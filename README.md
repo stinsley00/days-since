@@ -1,5 +1,21 @@
 # DaysSince
 
+This app is intended to track dev team or business team drama.
+
+Inticing future features might be:
+ - Who is causing the drama
+ - What is the drama
+ - How does the drama bring the team down?
+ - Taunts
+ - Are you sure you want to reset the drama modal dialogue hell
+
+
+I'd probably back this sucker in postgres, but sqllite is probably the winner as most teams are small.  
+As the number people of teams increases, 
+
+
+Boiler plate: 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
 ## Development server
@@ -25,3 +41,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
